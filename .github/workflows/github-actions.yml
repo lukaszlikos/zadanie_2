@@ -1,4 +1,4 @@
-name: GHAction example  
+name: workflow zad2  
 
 on:
   workflow_dispatch:
