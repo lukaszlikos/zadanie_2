@@ -13,7 +13,7 @@ jobs:
     
     env:
       REGISTRY: docker.io
-      IMAGE_NAME: ${{ github.repository }} # Automatyczna nazwa obrazu
+      IMAGE_NAME: zadanie_2
       COMPARE_TAG: latest
       
     steps:
