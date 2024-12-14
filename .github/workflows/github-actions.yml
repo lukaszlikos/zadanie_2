@@ -26,7 +26,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ vars.DOCKERHUB_USERNAME }}/${{ github.repository }}
+          images: ${{ vars.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}
           flavor: latest=false
           tags: |
             type=sha,priority=100,prefix=sha-,format=short
@@ -56,9 +56,9 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           cache-from: |
-            type=registry,ref=${{ vars.DOCKERHUB_USERNAME }}/${{ github.repository }}:cache 
+            type=registry,ref=${{ vars.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:cache 
           cache-to: |
-            type=registry,ref=${{ vars.DOCKERHUB_USERNAME }}/${{ github.repository }}:cache  
+            type=registry,ref=${{ vars.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:cache  
           tags: ${{ steps.meta.outputs.tags }}
           
       - 
