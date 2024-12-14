@@ -59,9 +59,7 @@ jobs:
             type=registry,ref=${{ vars.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:cache 
           cache-to: |
             type=registry,ref=${{ vars.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:cache  
-          tags: | 
-            ${{ vars.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest
-            ${{ vars.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:${{ steps.meta.outputs.tags }}
+          tags: ${{ env.COMPARE_TAG }}
           
       - 
         name: Docker Scout
