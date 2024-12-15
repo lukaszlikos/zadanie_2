@@ -15,3 +15,5 @@ i ponownie zwerfikowano działanie.
 ![alt text](https://github.com/lukaszlikos/zadanie_2/blob/master/images/Scout.png)
 
 Dodatkowo w repozytoriu załączono logi z działania workflow.
+
+Link do docker hub: https://hub.docker.com/repository/docker/likosik500/zadanie_2/general
