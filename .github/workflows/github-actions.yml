@@ -68,3 +68,4 @@ jobs:
           command: cves
           image: ${{ steps.meta.outputs.tags }}
           summary: true
+          exit-code: '1' # Fails the workflow on HIGH/CRITICAL vulnerabilities
