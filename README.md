@@ -14,4 +14,4 @@ i ponownie zwerfikowano działanie.
 ![alt text](https://github.com/lukaszlikos/zadanie_2/blob/master/images/Scout%202.png)
 ![alt text](https://github.com/lukaszlikos/zadanie_2/blob/master/images/Scout.png)
 
-
+Dodatkowo w repozytoriu załączono logi z działania workflow.
