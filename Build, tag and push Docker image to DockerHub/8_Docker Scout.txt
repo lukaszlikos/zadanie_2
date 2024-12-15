@@ -1,0 +1,97 @@
+﻿2024-12-14T18:55:32.5556416Z ##[group]Run docker/scout-action@v1
+2024-12-14T18:55:32.5556776Z with:
+2024-12-14T18:55:32.5557050Z   command: cves
+2024-12-14T18:55:32.5557392Z   image: likosik500/zadanie_2:sha-b2e0462
+2024-12-14T18:55:32.5557762Z   summary: true
+2024-12-14T18:55:32.5557991Z   format: json
+2024-12-14T18:55:32.5558296Z   referrer: false
+2024-12-14T18:55:32.5558723Z   github-token: ***
+2024-12-14T18:55:32.5559014Z   write-comment: true
+2024-12-14T18:55:32.5559306Z env:
+2024-12-14T18:55:32.5559592Z   REGISTRY: docker.io
+2024-12-14T18:55:32.5559870Z   IMAGE_NAME: zadanie_2
+2024-12-14T18:55:32.5560262Z   DOCKER_METADATA_OUTPUT_VERSION: sha-b2e0462
+2024-12-14T18:55:32.5560649Z   DOCKER_METADATA_OUTPUT_TAGS: likosik500/zadanie_2:sha-b2e0462
+2024-12-14T18:55:32.5562676Z   DOCKER_METADATA_OUTPUT_LABELS: org.opencontainers.image.created=2024-12-14T18:55:17.786Z
+org.opencontainers.image.description=Zadanie nr 2 Systemy wirtualizacji
+org.opencontainers.image.licenses=
+org.opencontainers.image.revision=b2e0462e2e53bebc7f79052577d58ab1a14b917c
+org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2
+org.opencontainers.image.title=zadanie_2
+org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2
+org.opencontainers.image.version=sha-b2e0462
+2024-12-14T18:55:32.5566679Z   DOCKER_METADATA_OUTPUT_ANNOTATIONS: manifest:org.opencontainers.image.created=2024-12-14T18:55:17.786Z
+manifest:org.opencontainers.image.description=Zadanie nr 2 Systemy wirtualizacji
+manifest:org.opencontainers.image.licenses=
+manifest:org.opencontainers.image.revision=b2e0462e2e53bebc7f79052577d58ab1a14b917c
+manifest:org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2
+manifest:org.opencontainers.image.title=zadanie_2
+manifest:org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2
+manifest:org.opencontainers.image.version=sha-b2e0462
+2024-12-14T18:55:32.5572340Z   DOCKER_METADATA_OUTPUT_JSON: {"tags":["likosik500/zadanie_2:sha-b2e0462"],"labels":{"org.opencontainers.image.created":"2024-12-14T18:55:17.786Z","org.opencontainers.image.description":"Zadanie nr 2 Systemy wirtualizacji","org.opencontainers.image.licenses":"","org.opencontainers.image.revision":"b2e0462e2e53bebc7f79052577d58ab1a14b917c","org.opencontainers.image.source":"https://github.com/lukaszlikos/zadanie_2","org.opencontainers.image.title":"zadanie_2","org.opencontainers.image.url":"https://github.com/lukaszlikos/zadanie_2","org.opencontainers.image.version":"sha-b2e0462"},"annotations":["manifest:org.opencontainers.image.created=2024-12-14T18:55:17.786Z","manifest:org.opencontainers.image.description=Zadanie nr 2 Systemy wirtualizacji","manifest:org.opencontainers.image.licenses=","manifest:org.opencontainers.image.revision=b2e0462e2e53bebc7f79052577d58ab1a14b917c","manifest:org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2","manifest:org.opencontainers.image.title=zadanie_2","manifest:org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2","manifest:org.opencontainers.image.version=sha-b2e0462"]}
+2024-12-14T18:55:32.5576860Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_TAGS: /home/runner/work/_temp/docker-actions-toolkit-7FaXSW/docker-metadata-action-bake-tags.json
+2024-12-14T18:55:32.5578017Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_LABELS: /home/runner/work/_temp/docker-actions-toolkit-7FaXSW/docker-metadata-action-bake-labels.json
+2024-12-14T18:55:32.5579096Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_ANNOTATIONS: /home/runner/work/_temp/docker-actions-toolkit-7FaXSW/docker-metadata-action-bake-annotations.json
+2024-12-14T18:55:32.5580052Z   DOCKER_METADATA_OUTPUT_BAKE_FILE: /home/runner/work/_temp/docker-actions-toolkit-7FaXSW/docker-metadata-action-bake.json
+2024-12-14T18:55:32.5580599Z ##[endgroup]
+2024-12-14T18:55:32.9605358Z ##[group]cves
+2024-12-14T18:55:34.0457870Z     ...Pulling
+2024-12-14T18:55:34.2179506Z     ✓ Pulled
+2024-12-14T18:55:34.2244541Z     ...Storing image for indexing
+2024-12-14T18:55:36.9682820Z     ✓ Image stored for indexing
+2024-12-14T18:55:36.9683818Z     ...Indexing
+2024-12-14T18:55:40.7511860Z     ✓ Indexed 287 packages
+2024-12-14T18:55:40.7876852Z     ✓ Provenance obtained from attestation
+2024-12-14T18:55:41.7677859Z 
+2024-12-14T18:55:41.7678238Z 
+2024-12-14T18:55:41.7678729Z ## Overview
+2024-12-14T18:55:41.7678991Z 
+2024-12-14T18:55:41.7679545Z                     │               Analyzed Image                
+2024-12-14T18:55:41.7680090Z ────────────────────┼─────────────────────────────────────────────
+2024-12-14T18:55:41.7680736Z   Target            │  likosik500/zadanie_2:sha-b2e0462           
+2024-12-14T18:55:41.7681266Z     digest          │  eaf159d35fb9                               
+2024-12-14T18:55:41.7681809Z     platform        │ linux/amd64                                 
+2024-12-14T18:55:41.7682443Z     provenance      │ https://github.com/lukaszlikos/zadanie_2    
+2024-12-14T18:55:41.7683179Z                     │  https://github.com/lukaszlikos/zadanie_2/blob/b2e0462e2e53bebc7f79052577d58ab1a14b917c   
+2024-12-14T18:55:41.7683867Z     vulnerabilities │    0C     1H     0M     0L                  
+2024-12-14T18:55:41.7684514Z     size            │ 47 MB                                       
+2024-12-14T18:55:41.7685046Z     packages        │ 287                                         
+2024-12-14T18:55:41.7685421Z 
+2024-12-14T18:55:41.7685429Z 
+2024-12-14T18:55:41.7685578Z ## Packages and Vulnerabilities
+2024-12-14T18:55:41.7685929Z 
+2024-12-14T18:55:41.7686083Z    0C     1H     0M     0L  cross-spawn 7.0.3
+2024-12-14T18:55:41.7686499Z pkg:npm/cross-spawn@7.0.3
+2024-12-14T18:55:41.7686692Z 
+2024-12-14T18:55:41.7687142Z https://github.com/lukaszlikos/zadanie_2/blob/b2e0462e2e53bebc7f79052577d58ab1a14b917c/Dockerfile#L6-L17
+2024-12-14T18:55:41.7687731Z WORKDIR /app
+2024-12-14T18:55:41.7688084Z COPY src/package*.json ./
+2024-12-14T18:55:41.7688497Z RUN npm install
+2024-12-14T18:55:41.7688862Z COPY src/ .
+2024-12-14T18:55:41.7689017Z 
+2024-12-14T18:55:41.7689155Z # Etap 2: Runtime
+2024-12-14T18:55:41.7689541Z FROM node:18-alpine
+2024-12-14T18:55:41.7689903Z ARG VERSION
+2024-12-14T18:55:41.7690227Z ENV AUTHOR="Lukasz Likos"
+2024-12-14T18:55:41.7690628Z ENV NODE_ENV=production
+2024-12-14T18:55:41.7691035Z ENV VERSION=${VERSION:-v1.0}
+2024-12-14T18:55:41.7691400Z WORKDIR /app
+2024-12-14T18:55:41.7691543Z 
+2024-12-14T18:55:41.7691908Z     ✗ HIGH CVE-2024-21538 [Inefficient Regular Expression Complexity]
+2024-12-14T18:55:41.7692683Z       https://scout.docker.com/v/CVE-2024-21538?s=github&n=cross-spawn&t=npm&vr=%!E(MISSING)%!D(MISSING)7.0.0%!C(MISSING)%!C(MISSING)7.0.5
+2024-12-14T18:55:41.7693374Z       Affected range : >=7.0.0                                       
+2024-12-14T18:55:41.7693902Z                      : <7.0.5                                        
+2024-12-14T18:55:41.7694348Z       Fixed version  : 7.0.5                                         
+2024-12-14T18:55:41.7694775Z       CVSS Score     : 7.5                                           
+2024-12-14T18:55:41.7695326Z       CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H  
+2024-12-14T18:55:41.7695742Z     
+2024-12-14T18:55:41.7695898Z 
+2024-12-14T18:55:41.7695902Z 
+2024-12-14T18:55:41.7696332Z 1 vulnerability found in 1 package
+2024-12-14T18:55:41.7696800Z   CRITICAL  0  
+2024-12-14T18:55:41.7697127Z   HIGH      1  
+2024-12-14T18:55:41.7697463Z   MEDIUM    0  
+2024-12-14T18:55:41.7697843Z   LOW       0  
+2024-12-14T18:55:41.7698042Z 
+2024-12-14T18:55:41.7698046Z 
+2024-12-14T18:55:41.7698486Z ##[endgroup]

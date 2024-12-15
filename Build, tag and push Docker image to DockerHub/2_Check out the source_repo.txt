@@ -1,0 +1,70 @@
+﻿2024-12-14T18:55:16.4791846Z ##[group]Run actions/checkout@v4
+2024-12-14T18:55:16.4792711Z with:
+2024-12-14T18:55:16.4793023Z   repository: lukaszlikos/zadanie_2
+2024-12-14T18:55:16.4793520Z   token: ***
+2024-12-14T18:55:16.4793913Z   ssh-strict: true
+2024-12-14T18:55:16.4794219Z   ssh-user: git
+2024-12-14T18:55:16.4794470Z   persist-credentials: true
+2024-12-14T18:55:16.4794910Z   clean: true
+2024-12-14T18:55:16.4795218Z   sparse-checkout-cone-mode: true
+2024-12-14T18:55:16.4795500Z   fetch-depth: 1
+2024-12-14T18:55:16.4795879Z   fetch-tags: false
+2024-12-14T18:55:16.4796156Z   show-progress: true
+2024-12-14T18:55:16.4796489Z   lfs: false
+2024-12-14T18:55:16.4796749Z   submodules: false
+2024-12-14T18:55:16.4797030Z   set-safe-directory: true
+2024-12-14T18:55:16.4797656Z env:
+2024-12-14T18:55:16.4797978Z   REGISTRY: docker.io
+2024-12-14T18:55:16.4798246Z   IMAGE_NAME: zadanie_2
+2024-12-14T18:55:16.4798588Z ##[endgroup]
+2024-12-14T18:55:16.6805841Z Syncing repository: lukaszlikos/zadanie_2
+2024-12-14T18:55:16.6808082Z ##[group]Getting Git version info
+2024-12-14T18:55:16.6808961Z Working directory is '/home/runner/work/zadanie_2/zadanie_2'
+2024-12-14T18:55:16.6809997Z [command]/usr/bin/git version
+2024-12-14T18:55:16.6853175Z git version 2.47.1
+2024-12-14T18:55:16.6881149Z ##[endgroup]
+2024-12-14T18:55:16.6894849Z Temporarily overriding HOME='/home/runner/work/_temp/137aba2a-8cfd-4683-a14b-4de985e266ba' before making global git config changes
+2024-12-14T18:55:16.6895959Z Adding repository directory to the temporary git global config as a safe directory
+2024-12-14T18:55:16.6909050Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/zadanie_2/zadanie_2
+2024-12-14T18:55:16.6970411Z Deleting the contents of '/home/runner/work/zadanie_2/zadanie_2'
+2024-12-14T18:55:16.6973519Z ##[group]Initializing the repository
+2024-12-14T18:55:16.6977650Z [command]/usr/bin/git init /home/runner/work/zadanie_2/zadanie_2
+2024-12-14T18:55:16.7067794Z hint: Using 'master' as the name for the initial branch. This default branch name
+2024-12-14T18:55:16.7068883Z hint: is subject to change. To configure the initial branch name to use in all
+2024-12-14T18:55:16.7069592Z hint: of your new repositories, which will suppress this warning, call:
+2024-12-14T18:55:16.7070639Z hint:
+2024-12-14T18:55:16.7071251Z hint: 	git config --global init.defaultBranch <name>
+2024-12-14T18:55:16.7072191Z hint:
+2024-12-14T18:55:16.7072881Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2024-12-14T18:55:16.7073843Z hint: 'development'. The just-created branch can be renamed via this command:
+2024-12-14T18:55:16.7074765Z hint:
+2024-12-14T18:55:16.7075183Z hint: 	git branch -m <name>
+2024-12-14T18:55:16.7075748Z Initialized empty Git repository in /home/runner/work/zadanie_2/zadanie_2/.git/
+2024-12-14T18:55:16.7085080Z [command]/usr/bin/git remote add origin https://github.com/lukaszlikos/zadanie_2
+2024-12-14T18:55:16.7118490Z ##[endgroup]
+2024-12-14T18:55:16.7119164Z ##[group]Disabling automatic garbage collection
+2024-12-14T18:55:16.7122744Z [command]/usr/bin/git config --local gc.auto 0
+2024-12-14T18:55:16.7153459Z ##[endgroup]
+2024-12-14T18:55:16.7154267Z ##[group]Setting up auth
+2024-12-14T18:55:16.7158968Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2024-12-14T18:55:16.7194528Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2024-12-14T18:55:16.7506652Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-12-14T18:55:16.7540244Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2024-12-14T18:55:16.7795686Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2024-12-14T18:55:16.7835365Z ##[endgroup]
+2024-12-14T18:55:16.7837099Z ##[group]Fetching the repository
+2024-12-14T18:55:16.7844601Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +b2e0462e2e53bebc7f79052577d58ab1a14b917c:refs/remotes/origin/master
+2024-12-14T18:55:17.0141292Z From https://github.com/lukaszlikos/zadanie_2
+2024-12-14T18:55:17.0142329Z  * [new ref]         b2e0462e2e53bebc7f79052577d58ab1a14b917c -> origin/master
+2024-12-14T18:55:17.0170081Z ##[endgroup]
+2024-12-14T18:55:17.0170762Z ##[group]Determining the checkout info
+2024-12-14T18:55:17.0172840Z ##[endgroup]
+2024-12-14T18:55:17.0179540Z [command]/usr/bin/git sparse-checkout disable
+2024-12-14T18:55:17.0220208Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2024-12-14T18:55:17.0249091Z ##[group]Checking out the ref
+2024-12-14T18:55:17.0252636Z [command]/usr/bin/git checkout --progress --force -B master refs/remotes/origin/master
+2024-12-14T18:55:17.0324751Z Reset branch 'master'
+2024-12-14T18:55:17.0328014Z branch 'master' set up to track 'origin/master'.
+2024-12-14T18:55:17.0333538Z ##[endgroup]
+2024-12-14T18:55:17.0368642Z [command]/usr/bin/git log -1 --format=%H
+2024-12-14T18:55:17.0392146Z b2e0462e2e53bebc7f79052577d58ab1a14b917c

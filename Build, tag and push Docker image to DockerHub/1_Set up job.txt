@@ -1,0 +1,32 @@
+﻿2024-12-14T18:55:08.5978155Z Current runner version: '2.321.0'
+2024-12-14T18:55:08.6005171Z ##[group]Operating System
+2024-12-14T18:55:08.6005968Z Ubuntu
+2024-12-14T18:55:08.6006454Z 22.04.5
+2024-12-14T18:55:08.6007086Z LTS
+2024-12-14T18:55:08.6007546Z ##[endgroup]
+2024-12-14T18:55:08.6008342Z ##[group]Runner Image
+2024-12-14T18:55:08.6009023Z Image: ubuntu-22.04
+2024-12-14T18:55:08.6009544Z Version: 20241211.1.0
+2024-12-14T18:55:08.6010518Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20241211.1/images/ubuntu/Ubuntu2204-Readme.md
+2024-12-14T18:55:08.6012000Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20241211.1
+2024-12-14T18:55:08.6012918Z ##[endgroup]
+2024-12-14T18:55:08.6013481Z ##[group]Runner Image Provisioner
+2024-12-14T18:55:08.6014051Z 2.0.385.1
+2024-12-14T18:55:08.6014548Z ##[endgroup]
+2024-12-14T18:55:08.6015669Z ##[group]GITHUB_TOKEN Permissions
+2024-12-14T18:55:08.6017685Z Contents: read
+2024-12-14T18:55:08.6018251Z Metadata: read
+2024-12-14T18:55:08.6018951Z Packages: read
+2024-12-14T18:55:08.6019855Z ##[endgroup]
+2024-12-14T18:55:08.6022127Z Secret source: Actions
+2024-12-14T18:55:08.6023135Z Prepare workflow directory
+2024-12-14T18:55:08.6388403Z Prepare all required actions
+2024-12-14T18:55:08.6424892Z Getting action download info
+2024-12-14T18:55:08.8987277Z Download action repository 'actions/checkout@v4' (SHA:11bd71901bbe5b1630ceea73d27597364c9af683)
+2024-12-14T18:55:09.0030758Z Download action repository 'docker/metadata-action@v5' (SHA:369eb591f429131d6889c46b94e711f089e6ca96)
+2024-12-14T18:55:09.5364410Z Download action repository 'docker/setup-qemu-action@v3' (SHA:49b3bc8e6bdd4a60e6116a5414239cba5943d3cf)
+2024-12-14T18:55:10.1074315Z Download action repository 'docker/setup-buildx-action@v3' (SHA:c47758b77c9736f4b2ef4073d4d51994fabfe349)
+2024-12-14T18:55:10.5588643Z Download action repository 'docker/login-action@v3' (SHA:9780b0c442fbb1117ed29e0efdff1e18412f7567)
+2024-12-14T18:55:11.0528661Z Download action repository 'docker/build-push-action@v5' (SHA:ca052bb54ab0790a636c9b5f226502c73d547a25)
+2024-12-14T18:55:11.5897448Z Download action repository 'docker/scout-action@v1' (SHA:b23590dc1e4d09febc00cfcbc51e9e8c0f7ee9f3)
+2024-12-14T18:55:16.4133168Z Complete job name: Build, tag and push Docker image to DockerHub

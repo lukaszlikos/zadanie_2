@@ -1,0 +1,35 @@
+﻿2024-12-14T18:55:27.4006142Z ##[group]Run docker/login-action@v3
+2024-12-14T18:55:27.4006628Z with:
+2024-12-14T18:55:27.4006892Z   username: likosik500
+2024-12-14T18:55:27.4007440Z   password: ***
+2024-12-14T18:55:27.4007833Z   ecr: auto
+2024-12-14T18:55:27.4008097Z   logout: true
+2024-12-14T18:55:27.4008317Z env:
+2024-12-14T18:55:27.4008651Z   REGISTRY: docker.io
+2024-12-14T18:55:27.4008939Z   IMAGE_NAME: zadanie_2
+2024-12-14T18:55:27.4009239Z   DOCKER_METADATA_OUTPUT_VERSION: sha-b2e0462
+2024-12-14T18:55:27.4009722Z   DOCKER_METADATA_OUTPUT_TAGS: likosik500/zadanie_2:sha-b2e0462
+2024-12-14T18:55:27.4011685Z   DOCKER_METADATA_OUTPUT_LABELS: org.opencontainers.image.created=2024-12-14T18:55:17.786Z
+org.opencontainers.image.description=Zadanie nr 2 Systemy wirtualizacji
+org.opencontainers.image.licenses=
+org.opencontainers.image.revision=b2e0462e2e53bebc7f79052577d58ab1a14b917c
+org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2
+org.opencontainers.image.title=zadanie_2
+org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2
+org.opencontainers.image.version=sha-b2e0462
+2024-12-14T18:55:27.4015574Z   DOCKER_METADATA_OUTPUT_ANNOTATIONS: manifest:org.opencontainers.image.created=2024-12-14T18:55:17.786Z
+manifest:org.opencontainers.image.description=Zadanie nr 2 Systemy wirtualizacji
+manifest:org.opencontainers.image.licenses=
+manifest:org.opencontainers.image.revision=b2e0462e2e53bebc7f79052577d58ab1a14b917c
+manifest:org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2
+manifest:org.opencontainers.image.title=zadanie_2
+manifest:org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2
+manifest:org.opencontainers.image.version=sha-b2e0462
+2024-12-14T18:55:27.4021203Z   DOCKER_METADATA_OUTPUT_JSON: {"tags":["likosik500/zadanie_2:sha-b2e0462"],"labels":{"org.opencontainers.image.created":"2024-12-14T18:55:17.786Z","org.opencontainers.image.description":"Zadanie nr 2 Systemy wirtualizacji","org.opencontainers.image.licenses":"","org.opencontainers.image.revision":"b2e0462e2e53bebc7f79052577d58ab1a14b917c","org.opencontainers.image.source":"https://github.com/lukaszlikos/zadanie_2","org.opencontainers.image.title":"zadanie_2","org.opencontainers.image.url":"https://github.com/lukaszlikos/zadanie_2","org.opencontainers.image.version":"sha-b2e0462"},"annotations":["manifest:org.opencontainers.image.created=2024-12-14T18:55:17.786Z","manifest:org.opencontainers.image.description=Zadanie nr 2 Systemy wirtualizacji","manifest:org.opencontainers.image.licenses=","manifest:org.opencontainers.image.revision=b2e0462e2e53bebc7f79052577d58ab1a14b917c","manifest:org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2","manifest:org.opencontainers.image.title=zadanie_2","manifest:org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2","manifest:org.opencontainers.image.version=sha-b2e0462"]}
+2024-12-14T18:55:27.4025929Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_TAGS: /home/runner/work/_temp/docker-actions-toolkit-7FaXSW/docker-metadata-action-bake-tags.json
+2024-12-14T18:55:27.4026895Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_LABELS: /home/runner/work/_temp/docker-actions-toolkit-7FaXSW/docker-metadata-action-bake-labels.json
+2024-12-14T18:55:27.4027958Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_ANNOTATIONS: /home/runner/work/_temp/docker-actions-toolkit-7FaXSW/docker-metadata-action-bake-annotations.json
+2024-12-14T18:55:27.4028874Z   DOCKER_METADATA_OUTPUT_BAKE_FILE: /home/runner/work/_temp/docker-actions-toolkit-7FaXSW/docker-metadata-action-bake.json
+2024-12-14T18:55:27.4029480Z ##[endgroup]
+2024-12-14T18:55:27.6803797Z Logging into Docker Hub...
+2024-12-14T18:55:27.9548701Z Login Succeeded!

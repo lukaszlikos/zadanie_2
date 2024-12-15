@@ -1,0 +1,142 @@
+﻿2024-12-14T18:55:17.0629204Z ##[group]Run docker/metadata-action@v5
+2024-12-14T18:55:17.0629691Z with:
+2024-12-14T18:55:17.0629963Z   images: likosik500/zadanie_2
+2024-12-14T18:55:17.0630635Z   flavor: latest=false
+2024-12-14T18:55:17.0631186Z   tags: type=sha,priority=100,prefix=sha-,format=short
+type=semver,priority=200,pattern={{version}}   
+
+2024-12-14T18:55:17.0631724Z   context: workflow
+2024-12-14T18:55:17.0632251Z   github-token: ***
+2024-12-14T18:55:17.0632509Z env:
+2024-12-14T18:55:17.0632997Z   REGISTRY: docker.io
+2024-12-14T18:55:17.0633394Z   IMAGE_NAME: zadanie_2
+2024-12-14T18:55:17.0633680Z ##[endgroup]
+2024-12-14T18:55:17.7809717Z ##[group]Context info
+2024-12-14T18:55:17.7810589Z eventName: workflow_dispatch
+2024-12-14T18:55:17.7811028Z sha: b2e0462e2e53bebc7f79052577d58ab1a14b917c
+2024-12-14T18:55:17.7811428Z ref: refs/heads/master
+2024-12-14T18:55:17.7812067Z workflow: workflow zad2
+2024-12-14T18:55:17.7812611Z action: meta
+2024-12-14T18:55:17.7812928Z actor: lukaszlikos
+2024-12-14T18:55:17.7813340Z runNumber: 17
+2024-12-14T18:55:17.7813724Z runId: 12332324649
+2024-12-14T18:55:17.7844779Z commitDate: Sat Dec 14 2024 18:54:50 GMT+0000 (Coordinated Universal Time)
+2024-12-14T18:55:17.7845970Z ##[endgroup]
+2024-12-14T18:55:17.7852998Z ##[group]Processing images input
+2024-12-14T18:55:17.7853655Z name=likosik500/zadanie_2,enable=true
+2024-12-14T18:55:17.7854681Z ##[endgroup]
+2024-12-14T18:55:17.7863585Z ##[group]Processing tags input
+2024-12-14T18:55:17.7864498Z type=semver,priority=200,pattern={{version}},value=,enable=true
+2024-12-14T18:55:17.7865621Z type=sha,priority=100,prefix=sha-,format=short,enable=true
+2024-12-14T18:55:17.7866790Z ##[endgroup]
+2024-12-14T18:55:17.7868665Z ##[group]Processing flavor input
+2024-12-14T18:55:17.7869768Z latest=false
+2024-12-14T18:55:17.7870537Z prefix=
+2024-12-14T18:55:17.7871168Z prefixLatest=false
+2024-12-14T18:55:17.7871668Z suffix=
+2024-12-14T18:55:17.7872226Z suffixLatest=false
+2024-12-14T18:55:17.7873095Z ##[endgroup]
+2024-12-14T18:55:17.7908470Z ##[group]Docker image version
+2024-12-14T18:55:17.7909170Z sha-b2e0462
+2024-12-14T18:55:17.7909978Z ##[endgroup]
+2024-12-14T18:55:17.7915175Z ##[group]Docker tags
+2024-12-14T18:55:17.7915832Z likosik500/zadanie_2:sha-b2e0462
+2024-12-14T18:55:17.7916921Z ##[endgroup]
+2024-12-14T18:55:17.8037181Z ##[group]Docker labels
+2024-12-14T18:55:17.8038047Z org.opencontainers.image.created=2024-12-14T18:55:17.786Z
+2024-12-14T18:55:17.8039094Z org.opencontainers.image.description=Zadanie nr 2 Systemy wirtualizacji
+2024-12-14T18:55:17.8039971Z org.opencontainers.image.licenses=
+2024-12-14T18:55:17.8041046Z org.opencontainers.image.revision=b2e0462e2e53bebc7f79052577d58ab1a14b917c
+2024-12-14T18:55:17.8042211Z org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2
+2024-12-14T18:55:17.8043320Z org.opencontainers.image.title=zadanie_2
+2024-12-14T18:55:17.8044213Z org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2
+2024-12-14T18:55:17.8045217Z org.opencontainers.image.version=sha-b2e0462
+2024-12-14T18:55:17.8046418Z ##[endgroup]
+2024-12-14T18:55:17.8047324Z ##[group]Annotations
+2024-12-14T18:55:17.8048179Z manifest:org.opencontainers.image.created=2024-12-14T18:55:17.786Z
+2024-12-14T18:55:17.8049358Z manifest:org.opencontainers.image.description=Zadanie nr 2 Systemy wirtualizacji
+2024-12-14T18:55:17.8050401Z manifest:org.opencontainers.image.licenses=
+2024-12-14T18:55:17.8051469Z manifest:org.opencontainers.image.revision=b2e0462e2e53bebc7f79052577d58ab1a14b917c
+2024-12-14T18:55:17.8052860Z manifest:org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2
+2024-12-14T18:55:17.8053915Z manifest:org.opencontainers.image.title=zadanie_2
+2024-12-14T18:55:17.8055085Z manifest:org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2
+2024-12-14T18:55:17.8056090Z manifest:org.opencontainers.image.version=sha-b2e0462
+2024-12-14T18:55:17.8057430Z ##[endgroup]
+2024-12-14T18:55:17.8058346Z ##[group]JSON output
+2024-12-14T18:55:17.8058810Z {
+2024-12-14T18:55:17.8059485Z   "tags": [
+2024-12-14T18:55:17.8059971Z     "likosik500/zadanie_2:sha-b2e0462"
+2024-12-14T18:55:17.8061104Z   ],
+2024-12-14T18:55:17.8061569Z   "labels": {
+2024-12-14T18:55:17.8062249Z     "org.opencontainers.image.created": "2024-12-14T18:55:17.786Z",
+2024-12-14T18:55:17.8063486Z     "org.opencontainers.image.description": "Zadanie nr 2 Systemy wirtualizacji",
+2024-12-14T18:55:17.8064517Z     "org.opencontainers.image.licenses": "",
+2024-12-14T18:55:17.8065399Z     "org.opencontainers.image.revision": "b2e0462e2e53bebc7f79052577d58ab1a14b917c",
+2024-12-14T18:55:17.8067077Z     "org.opencontainers.image.source": "https://github.com/lukaszlikos/zadanie_2",
+2024-12-14T18:55:17.8068108Z     "org.opencontainers.image.title": "zadanie_2",
+2024-12-14T18:55:17.8069031Z     "org.opencontainers.image.url": "https://github.com/lukaszlikos/zadanie_2",
+2024-12-14T18:55:17.8070465Z     "org.opencontainers.image.version": "sha-b2e0462"
+2024-12-14T18:55:17.8071190Z   },
+2024-12-14T18:55:17.8071676Z   "annotations": [
+2024-12-14T18:55:17.8072591Z     "manifest:org.opencontainers.image.created=2024-12-14T18:55:17.786Z",
+2024-12-14T18:55:17.8073772Z     "manifest:org.opencontainers.image.description=Zadanie nr 2 Systemy wirtualizacji",
+2024-12-14T18:55:17.8074759Z     "manifest:org.opencontainers.image.licenses=",
+2024-12-14T18:55:17.8075887Z     "manifest:org.opencontainers.image.revision=b2e0462e2e53bebc7f79052577d58ab1a14b917c",
+2024-12-14T18:55:17.8076943Z     "manifest:org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2",
+2024-12-14T18:55:17.8077980Z     "manifest:org.opencontainers.image.title=zadanie_2",
+2024-12-14T18:55:17.8078830Z     "manifest:org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2",
+2024-12-14T18:55:17.8079759Z     "manifest:org.opencontainers.image.version=sha-b2e0462"
+2024-12-14T18:55:17.8080423Z   ]
+2024-12-14T18:55:17.8080869Z }
+2024-12-14T18:55:17.8081622Z ##[endgroup]
+2024-12-14T18:55:17.8082515Z ##[group]Bake file definition (tags)
+2024-12-14T18:55:17.8083120Z {
+2024-12-14T18:55:17.8083736Z   "target": {
+2024-12-14T18:55:17.8084238Z     "docker-metadata-action": {
+2024-12-14T18:55:17.8084751Z       "tags": [
+2024-12-14T18:55:17.8085296Z         "likosik500/zadanie_2:sha-b2e0462"
+2024-12-14T18:55:17.8085801Z       ],
+2024-12-14T18:55:17.8086183Z       "args": {
+2024-12-14T18:55:17.8086739Z         "DOCKER_META_IMAGES": "likosik500/zadanie_2",
+2024-12-14T18:55:17.8087316Z         "DOCKER_META_VERSION": "sha-b2e0462"
+2024-12-14T18:55:17.8087829Z       }
+2024-12-14T18:55:17.8088312Z     }
+2024-12-14T18:55:17.8088709Z   }
+2024-12-14T18:55:17.8089028Z }
+2024-12-14T18:55:17.8089846Z ##[endgroup]
+2024-12-14T18:55:17.8090557Z ##[group]Bake file definition (labels)
+2024-12-14T18:55:17.8091194Z {
+2024-12-14T18:55:17.8091573Z   "target": {
+2024-12-14T18:55:17.8091980Z     "docker-metadata-action": {
+2024-12-14T18:55:17.8092559Z       "labels": {
+2024-12-14T18:55:17.8093133Z         "org.opencontainers.image.created": "2024-12-14T18:55:17.786Z",
+2024-12-14T18:55:17.8094032Z         "org.opencontainers.image.description": "Zadanie nr 2 Systemy wirtualizacji",
+2024-12-14T18:55:17.8095020Z         "org.opencontainers.image.licenses": "",
+2024-12-14T18:55:17.8095801Z         "org.opencontainers.image.revision": "b2e0462e2e53bebc7f79052577d58ab1a14b917c",
+2024-12-14T18:55:17.8096809Z         "org.opencontainers.image.source": "https://github.com/lukaszlikos/zadanie_2",
+2024-12-14T18:55:17.8097818Z         "org.opencontainers.image.title": "zadanie_2",
+2024-12-14T18:55:17.8098631Z         "org.opencontainers.image.url": "https://github.com/lukaszlikos/zadanie_2",
+2024-12-14T18:55:17.8099424Z         "org.opencontainers.image.version": "sha-b2e0462"
+2024-12-14T18:55:17.8100157Z       }
+2024-12-14T18:55:17.8100528Z     }
+2024-12-14T18:55:17.8101013Z   }
+2024-12-14T18:55:17.8101361Z }
+2024-12-14T18:55:17.8102031Z ##[endgroup]
+2024-12-14T18:55:17.8102885Z ##[group]Bake file definition (annotations)
+2024-12-14T18:55:17.8103434Z {
+2024-12-14T18:55:17.8103927Z   "target": {
+2024-12-14T18:55:17.8104384Z     "docker-metadata-action": {
+2024-12-14T18:55:17.8105146Z       "annotations": [
+2024-12-14T18:55:17.8105881Z         "manifest:org.opencontainers.image.created=2024-12-14T18:55:17.786Z",
+2024-12-14T18:55:17.8106902Z         "manifest:org.opencontainers.image.description=Zadanie nr 2 Systemy wirtualizacji",
+2024-12-14T18:55:17.8107779Z         "manifest:org.opencontainers.image.licenses=",
+2024-12-14T18:55:17.8108744Z         "manifest:org.opencontainers.image.revision=b2e0462e2e53bebc7f79052577d58ab1a14b917c",
+2024-12-14T18:55:17.8110311Z         "manifest:org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2",
+2024-12-14T18:55:17.8111285Z         "manifest:org.opencontainers.image.title=zadanie_2",
+2024-12-14T18:55:17.8112289Z         "manifest:org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2",
+2024-12-14T18:55:17.8113212Z         "manifest:org.opencontainers.image.version=sha-b2e0462"
+2024-12-14T18:55:17.8113845Z       ]
+2024-12-14T18:55:17.8114342Z     }
+2024-12-14T18:55:17.8114669Z   }
+2024-12-14T18:55:17.8115042Z }
+2024-12-14T18:55:17.8115824Z ##[endgroup]
